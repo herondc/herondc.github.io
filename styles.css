@@ -1,6 +1,7 @@
 /*This solution was inspired by researching online - I used what I understood and deleted the rest*/
 /*I chose to use the information I gathered - instread of reinventing the wheel, I decided to understand how it works*/
 body {  
+	position: relative;
 	background-color: lightgrey;
   }
 .clear { 
@@ -8,14 +9,16 @@ body {
 	height: 200px;
          }
 .container { /*gave the container div of the page fix width and centered it on the page*/
+	
+	position: relative;
 	width: 800px;
     margin: 40px auto 60px; 
      }
 .pic { /*tilt and position picture*/
 	position: absolute; 
-	top: 10px;
-	right:250px;
-	transform: skewY(-2.2deg);
+	top: -25px;
+	right:-100px;
+	transform: skewY(-2.5deg);
 	border: 2px solid grey;
     border-radius: 0px;
     padding: 0;
