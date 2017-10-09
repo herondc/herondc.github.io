@@ -15,9 +15,9 @@ body {
 	position: absolute; 
 	top: 10px;
 	right:250px;
-	transform: skewY(-2.6deg);
+	transform: skewY(-2.2deg);
 	border: 2px solid grey;
-    border-radius: 2px;
+    border-radius: 0px;
     padding: 0;
         }
 h1 { 
